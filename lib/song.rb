@@ -12,6 +12,7 @@ attr_accessor :name, :artist
     else
       self.artist.name
   end
+end
 
 
 
