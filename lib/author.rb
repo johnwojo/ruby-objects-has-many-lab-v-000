@@ -21,7 +21,7 @@ attr_accessor :name, :posts
     post = Post.new(post)
     @post << post
     post.author = self
-    @@song_count += 1
+    @@post_count += 1
   end
 
 
