@@ -7,10 +7,10 @@ attr_accessor :name, :author
   end
 
   def author_name
-    if self.artist == nil
+    if self.author == nil
       nil
     else
-      self.artist.name
+      self.author.name
     end
   end
 end
