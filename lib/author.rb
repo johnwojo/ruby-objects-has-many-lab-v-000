@@ -4,7 +4,7 @@ attr_accessor :name, :posts
 
   def initialize(name)
     @name = name
-    @songs = []
+    @posts = []
   end
 
   def songs
