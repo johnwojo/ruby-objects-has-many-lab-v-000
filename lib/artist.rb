@@ -5,6 +5,7 @@ attr_accessor :name, :songs
   def initialize(name)
     @name = name
     @songs = []
+    @@song_count + 1
   end
 
   def songs
